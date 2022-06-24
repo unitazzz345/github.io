@@ -1,0 +1,187 @@
+.menu{
+	font-weight: bold;
+	color: #3a5e56;
+	background-color: #b5ffe4;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+.menu a{
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #4c3a5e;
+	/*inherit наследует значение от родителя*/
+}
+.menu a:hover{
+	text-decoration: black wavy underline;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+
+}
+.main{
+	margin-top: 80px;
+	margin-left: 360px;
+	margin-right: 40px;
+
+}
+body{
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+hr{
+	width: 100%;
+	border-radius: 4px;
+	margin: 20px 0;
+	border:5px solid #3a5e56;
+}
+.images img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+
+
+}
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	color: #3a5e56;
+	font-size: 48px;
+	font-weight: 400;
+}
+.member{
+	width: 30%;
+	display: inline-block;
+	padding: 8px;
+	box-sizing: border-box;
+
+
+}
+.member img{
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+	filter: grayscale(50%);
+
+}
+.member .grey{
+	margin: 0;
+	background-color: #e5e5e5;
+	border-radius: 6px;
+	padding: 2px 16px 5px;
+}
+.proffesion{
+	opacity: 0.6;
+}
+.tarif{
+	display: inline-block;
+	width: 30%;
+	padding: 0 8px;
+	box-sizing:border-box;
+	text-align: center;
+	
+}
+.tarif ul{
+	list-style-type: none;
+	background-color: #e8e8e8;
+	margin: 0;
+	padding: 0;
+
+}
+.tarif li{
+	border-bottom: 1px solid #c7c7c7;
+	border-radius: 10px;
+	padding: 16px 0;
+}
+.name1{
+	background-color: #42ffb0;
+
+}
+.name2{
+	background-color: #8b42ff;
+}
+.name3{
+	background-color: #ada92f;
+}
+ .tarif .money{
+ 	font-size: 30px;
+ 	font-weight: 550;
+}
+.tarif .day{
+	opacity: 0.6;
+}
+.tarif .name{
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+	padding: 24px 0; 
+
+}
+.tarif a{
+	border: 1px solid  #42ffb0;
+	background-color:  #42ffb0;
+	padding: 15px 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	margin: 15px auto;
+	display: inline-block;
+}
+.tarif .protext{
+	border: 1px solid  #8741cc;
+	background-color:  #8741cc;	
+	color: white;
+
+}
+#Contact input{
+	width: 90%;
+	display: block;
+	border: 1px solid black;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	font-size: 16px;
+
+}
+
+button{
+	background-color: #287f65;
+	border-radius: 6px;
+	width: 90%;
+	outline: none;
+	border: none;
+	display: block;
+	padding: 12px 24px;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 10px black;
+}
+label{
+	font-weight: bold;
+}
+button:hover{
+	background-color: white;
+	color: #287f65;
+}
+#footer{
+	background-color: #d6d6d6;	
+	padding: 32px 58px 32px;
+	margin-top: 40px;
+}
+#footer p{
+	text-align: right;
+
+}
+
+
+
